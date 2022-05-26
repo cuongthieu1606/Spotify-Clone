@@ -5,7 +5,12 @@ import { FaEllipsisH, FaHeadphones, FaCheck } from "react-icons/fa";
 function Banner() {
   return (
     <div className="Banner">
-      <img src={artist} alt="" className="bannerImg" />
+      <img
+        src="https://image.thanhnien.vn/w1024/Uploaded/2022/wpdhnwejw/2022_04_29/t1-5052.png"
+        alt=""
+        className="bannerImg"
+        width={100}
+      />
 
       <div className="content">
         <div className="breadCrump">
@@ -20,7 +25,7 @@ function Banner() {
         <div className="artist">
           <div className="left">
             <div className="name">
-              <h2>A-ha</h2>
+              <h2>Sơn Tùng M-TP</h2>
               <img src={check} alt="" />
             </div>
 
